@@ -1,0 +1,80 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Environment files ----
+.env
+.env.*
+
+# ---- Virtual environments ----
+venv/
+env/
+.venv/
+.env/
+.Python
+
+# ---- Logs ----
+*.log
+*.out
+*.err
+
+# ---- Jupyter / IPython ----
+.ipynb_checkpoints/
+.profile_default/
+__pycache__/
+*.ipynb_convert*
+
+# ---- VS Code / Cloud Shell ----
+.vscode/
+.history/
+*.code-workspace
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Docker ----
+*.pid
+*.seed
+*.bak
+*.swp
+.dockerignore
+
+# ---- Cache ----
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage.xml
+htmlcov/
+
+# ---- CSV / data dumps ----
+*.csv
+*.xlsx
+*.xls
+data/*
+!data/example.csv
+
+# ---- Node (optional, if using front-end) ----
+node_modules/
+npm-debug.log
+
+# ---- Reports, backups ----
+*.bak
+*.tmp
+*.sav
+*.tar
+*.zip
+
+# ---- Editor settings ----
+.idea/
+*.sublime-project
+*.sublime-workspace

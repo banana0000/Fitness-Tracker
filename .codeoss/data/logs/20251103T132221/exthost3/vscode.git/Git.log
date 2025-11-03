@@ -33,3 +33,22 @@
 2025-11-03 13:23:28.638 [info] > git show --textconv :app.py [49ms]
 2025-11-03 13:23:28.640 [info] > git cat-file -s eaf01300b368a260f49a1827a64df7e294901c19 [3ms]
 2025-11-03 13:23:30.697 [info] > git status -z -uall [2222ms] (cancelled)
+2025-11-03 13:59:50.710 [info] > git ls-files --stage -- app.py [14ms]
+2025-11-03 13:59:50.721 [info] > git cat-file -s eaf01300b368a260f49a1827a64df7e294901c19 [2ms]
+2025-11-03 13:59:50.807 [info] > git show --textconv :app.py [11ms]
+2025-11-03 13:59:51.391 [info] > git show --textconv :README.md [20ms]
+2025-11-03 13:59:51.402 [info] > git ls-files --stage -- README.md [17ms]
+2025-11-03 13:59:51.414 [info] > git cat-file -s be3a0a66db6ccdd07d03b74e9a93835ffeeffea2 [3ms]
+2025-11-03 13:59:54.335 [info] > git show --textconv :README-cloudshell.txt [11ms]
+2025-11-03 13:59:54.346 [info] > git ls-files --stage -- README-cloudshell.txt [13ms]
+2025-11-03 13:59:54.357 [info] > git cat-file -s 9fa5a74e750d98eb725eca4ca09ba01af2f5cd24 [2ms]
+2025-11-03 14:00:58.726 [info] > git show --textconv :README.md [12ms]
+2025-11-03 14:00:58.738 [info] > git ls-files --stage -- README.md [13ms]
+2025-11-03 14:00:58.749 [info] > git cat-file -s be3a0a66db6ccdd07d03b74e9a93835ffeeffea2 [2ms]
+2025-11-03 14:02:44.946 [info] > git show --textconv :.gitignore [11ms]
+2025-11-03 14:02:44.961 [info] > git hash-object -t tree /dev/null [3ms]
+2025-11-03 14:02:44.961 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/koveszter7/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fkoveszter7%2F.gitignore%22%2C%22ref%22%3A%22%22%7D
+2025-11-03 14:02:44.968 [info] > git ls-files --stage -- .gitignore [24ms]
+2025-11-03 14:02:44.969 [warning] [GitFileSystemProvider][stat] File not found - git:/home/koveszter7/.gitignore.git?%7B%22path%22%3A%22%2Fhome%2Fkoveszter7%2F.gitignore%22%2C%22ref%22%3A%22%22%7D
+2025-11-03 14:02:45.045 [info] > git check-ignore -v -z --stdin [12ms]
+2025-11-03 14:02:55.240 [info] > git check-ignore -v -z --stdin [30ms]
