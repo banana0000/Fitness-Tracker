@@ -83,3 +83,25 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/banana0000/Fitness-Tracker.git
 git push -u origin main
+git add .
+git commit -m "add"
+git push
+git push --set-upstream origin main
+Token2
+git push --set-upstream origin main
+git push
+git push --set-upstream origin main
+git remote set-url origin https://github.com/banana0000/Fitness-Tracker.git
+git push -u origin main
+git remote remove origin
+git remote add origin https://github.com/banana0000/Fitness-Tracker.git
+git branch -M main
+git push -u origin main
+git remote -v
+echo "# Fitness-Tracker" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/banana0000/Fitness-Tracker.git
+git push -u origin main
