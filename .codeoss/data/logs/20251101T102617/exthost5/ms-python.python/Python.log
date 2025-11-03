@@ -1,0 +1,27 @@
+2025-11-01 11:12:21.275 [warning] Dir "/home/koveszter7/.pixi/envs" is not watchable (directory does not exist)
+2025-11-01 11:12:21.352 [info] Python interpreter path: /bin/python
+2025-11-01 11:12:22.003 [info] > pyenv which python
+2025-11-01 11:12:22.003 [info] cwd: .
+2025-11-01 11:12:34.794 [info] Starting Jedi language server for koveszter7.
+2025-11-01 11:13:15.112 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/koveszter7/requirements.txt
+2025-11-01 11:13:15.112 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt

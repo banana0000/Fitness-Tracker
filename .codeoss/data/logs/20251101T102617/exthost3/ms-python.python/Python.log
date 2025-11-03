@@ -1,0 +1,4 @@
+2025-11-01 11:03:46.475 [warning] Dir "/home/koveszter7/.pixi/envs" is not watchable (directory does not exist)
+2025-11-01 11:03:46.475 [info] Python interpreter path: /bin/python
+2025-11-01 11:03:46.493 [info] > pyenv which python
+2025-11-01 11:03:46.493 [info] cwd: .

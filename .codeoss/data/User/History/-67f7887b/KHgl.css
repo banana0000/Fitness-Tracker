@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: #ffeb3b;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.main-card {
+  background-color: rgba(25, 25, 25, 0.95);
+  border: 2px solid #ffeb3b44;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 0 25px rgba(255, 235, 59, 0.2);
+  width: 90%;
+  max-width: 900px;
+  text-align: center;
+}
+
+.title {
+  color: #ffd600;
+  text-shadow: 0 0 10px #ff9800;
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.subtitle {
+  color: #ffcc80;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.stats-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 2rem;
+}
+
+.stat-block {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid #ff4646;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 220px;
+  color: #ffca28;
+  box-shadow: 0 0 10px rgba(229, 57, 53, 0.4);
+  transition: transform 0.2s;
+}
+
+.stat-block:hover {
+  transform: scale(1.05);
+}
+
+.graph-card {
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 20px rgba(255, 202, 40, 0.3);
+}
+
+.dropdown {
+  width: 250px;
+  margin: 1rem auto;
+  background-color: #111;
+  color: #f1f1f1;
+}
+
+.advice-box {
+  background-color: rgba(40, 40, 40, 0.9);
+  border-left: 5px solid #ffca28;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1rem auto;
+  width: 80%;
+  color: #f5f5f5;
+  text-shadow: 0 0 5px #e53935;
+}
+
+.advice-title {
+  color: #ffeb3b;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 2rem;
+  color: #888;
+  font-size: 0.9em;
+}

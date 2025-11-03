@@ -1,0 +1,14 @@
+2025-11-02 14:08:17.904 [info] Extension host with pid 1210 started
+2025-11-02 14:08:18.758 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-02 14:08:18.881 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-02 14:08:18.960 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-02 14:08:18.960 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-02 14:08:19.164 [info] Eager extensions activated
+2025-11-02 14:08:19.164 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-11-02 14:08:19.165 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2025-11-02 14:08:19.165 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onStartupFinished', root cause: googlecloudtools.cloudcode
+2025-11-02 14:08:19.166 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-02 14:08:19.166 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-11-02 14:08:19.167 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-02 14:08:20.551 [info] Extension host terminating: received terminate message from renderer
+2025-11-02 14:08:20.566 [info] Extension host with pid 1210 exiting with code 0

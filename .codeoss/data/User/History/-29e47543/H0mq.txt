@@ -1,0 +1,40 @@
+dash
+pandas
+gunicorn
+```*   **dash**: The core framework for building the web application.
+*   **pandas**: Used for data manipulation and reading the CSV file.
+*   **gunicorn**: A production-grade web server required by Cloud Run to serve the application.
+
+---
+
+### 4. Dockerfile for Cloud Run (`Dockerfile`)
+
+This file contains the instructions to build a container image for your application. Cloud Run uses this image to run your app in a scalable way.
+
+```Dockerfile
+# Use an official lightweight Python image.
+# Using python:3.9-slim helps to keep the container size small.
+FROM python:3.9-slim
+
+# Set the working directory inside the container.
+WORKDIR /app
+
+# Copy the requirements file into the container.
+COPY requirements.txt .
+
+# Install the Python dependencies.
+# The --no-cache-dir option reduces the image size.
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application's source code into the container.
+# This includes app.py and data.csv.
+COPY . .
+
+# Tell the container to listen on port 8080 for incoming connections.
+# Cloud Run will automatically use this port.
+EXPOSE 8080
+
+# Define the command to run the application using gunicorn.
+# This is the standard way to run a production WSGI app like Dash.
+# It binds the server to port 8080 and points to the 'server' object inside the 'app.py' file.
+CMD ["gunicorn", "-b", ":8080", "app:server"]

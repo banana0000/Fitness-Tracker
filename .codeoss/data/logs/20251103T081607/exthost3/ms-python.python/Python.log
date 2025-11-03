@@ -1,0 +1,5 @@
+2025-11-03 09:40:04.902 [warning] Dir "/home/koveszter7/.pixi/envs" is not watchable (directory does not exist)
+2025-11-03 09:40:04.902 [info] Python interpreter path: /bin/python
+2025-11-03 09:40:04.925 [info] > pyenv which python
+2025-11-03 09:40:04.925 [info] cwd: .
+2025-11-03 09:40:06.561 [info] Starting Jedi language server for koveszter7.

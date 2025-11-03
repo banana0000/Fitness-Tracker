@@ -1,0 +1,7 @@
+2025-11-02 14:29:08.760 [error] Request textDocument/documentColor failed.
+Error: Starting server failed
+    at P.$start (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:1:122936)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at P.sendRequest (/google/devshell/editor/code-oss-for-cloud-shell/extensions/css-language-features/client/dist/node/cssClientMain.js:1:106475)
+    at cA.provideColors (file:///google/devshell/editor/code-oss-for-cloud-shell/out/vs/workbench/api/node/extensionHostProcess.js:140:151079)
+2025-11-02 14:29:08.859 [error] Stopping server timed out

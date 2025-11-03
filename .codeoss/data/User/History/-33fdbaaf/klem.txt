@@ -1,0 +1,39 @@
+===============================
+Physical Activity Tracker - README
+===============================
+
+Description
+-----------
+This is a Python web application built with Plotly Dash and Dash Bootstrap Components to visualize weekly physical activity data. Users can upload a CSV file containing their daily steps and calories burned, and the application will generate interactive charts and provide simple, text-based insights.
+
+The application is designed with a dark theme and is ready for deployment on Google Cloud Run.
+
+Features
+--------
+- Dark Theme: Uses the "Darkly" theme from Dash Bootstrap Components for a sleek, modern look.
+- Two-Page Layout:
+    1. Dashboard: Main page for data upload and visualization.
+    2. Insights: A second page providing smart recommendations based on recent activity.
+- Interactive Charts:
+    - A line chart to visualize daily step trends.
+    - A bar chart to display daily calories burned.
+- File Upload: Allows users to upload their own activity data via a CSV file. The charts update automatically upon successful upload.
+- Empty State: The dashboard shows a prompt to upload a file when no data is loaded.
+- Smart Recommendations: The "Insights" page analyzes the last two days of data and provides a simple, motivational message.
+- Responsive Design: Built with Dash Bootstrap Components (Cards, Navbar) to ensure the layout is clean and works well on different screen sizes.
+- Ready for Deployment: Includes a Gunicorn server instance, making it suitable for deployment on platforms like Google Cloud Run.
+
+Required Files
+--------------
+1. `app.py`: The main Python script containing the Dash application code.
+2. `requirements.txt`: A file listing the necessary Python packages.
+3. `Procfile`: A file required by services like Google Cloud Run to know how to start the web server.
+
+Data Format
+-----------
+The application expects a CSV file with the following columns:
+- `Day`: The day of the week or date (e.g., "Monday", "2025-10-27").
+- `Steps`: The number of steps taken (integer).
+- `Calories`: The number of calories burned (integer).
+
+Example `data.csv`:

@@ -1,0 +1,45 @@
+.section-title {
+  color: #1976d2;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.dropdown {
+  width: 250px;
+  margin: 1rem auto 2rem auto;
+  display: block;
+}
+
+.query-section {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-top: 2rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.advice-box {
+  text-align: center;
+  background: #f8fcff;
+  border-left: 4px solid #1976d2;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 80%;
+  margin: auto;
+}
+
+.advice-title {
+  color: #1976d2;
+  margin-bottom: 0.5rem;
+}
+
+.advice-data {
+  font-weight: bold;
+  color: #444;
+}
+
+.advice-text {
+  color: #333;
+  font-size: 1em;
+  margin-top: 0.5rem;
+}

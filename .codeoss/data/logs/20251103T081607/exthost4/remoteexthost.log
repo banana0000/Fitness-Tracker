@@ -1,0 +1,25 @@
+2025-11-03 09:48:08.070 [info] Extension host with pid 8516 started
+2025-11-03 09:48:08.074 [info] Lock '/home/koveszter7/.codeoss/data/User/workspaceStorage/-5af9affc/vscode.lock': Lock acquired.
+2025-11-03 09:48:08.772 [info] ExtensionService#_doActivateExtension google.geminicodeassist, startup: false, activationEvent: 'onView:cloudcode.gemini.chatView'
+2025-11-03 09:48:08.774 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-11-03 09:48:09.856 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-11-03 09:48:09.885 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:requirements.txt'
+2025-11-03 09:48:10.175 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onTerminalProfile:cloudshell.default'
+2025-11-03 09:48:10.473 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-11-03 09:48:10.473 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-11-03 09:48:10.596 [error] Error: spawn /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python-env-tools/bin/pet ENOENT
+	at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+	at onErrorNT (node:internal/child_process:483:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+2025-11-03 09:48:10.678 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-03 09:48:10.679 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-03 09:48:10.680 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-11-03 09:48:11.063 [info] Eager extensions activated
+2025-11-03 09:48:11.064 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2025-11-03 09:48:11.064 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-11-03 09:48:11.064 [info] ExtensionService#_doActivateExtension google.gemini-cli-vscode-ide-companion, startup: false, activationEvent: 'onStartupFinished'
+2025-11-03 09:48:11.065 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-11-03 09:48:11.536 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2025-11-03 09:56:21.298 [info] Extension host terminating: received terminate message from renderer
+2025-11-03 09:56:21.298 [info] Lock '/home/koveszter7/.codeoss/data/User/workspaceStorage/-5af9affc/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2025-11-03 09:56:21.347 [info] Extension host with pid 8516 exiting with code 0

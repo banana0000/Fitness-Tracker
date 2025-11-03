@@ -1,0 +1,94 @@
+2025-11-03 08:17:17.547 [warning] Dir "/home/koveszter7/.pixi/envs" is not watchable (directory does not exist)
+2025-11-03 08:17:17.547 [info] Python interpreter path: /bin/python
+2025-11-03 08:17:17.950 [info] > pyenv which python
+2025-11-03 08:17:17.950 [info] cwd: .
+2025-11-03 08:17:21.523 [info] Starting Jedi language server for koveszter7.
+2025-11-03 08:20:16.477 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:22:02.626 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:22:43.131 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/.local/lib/python3.12/site-packages/pyproject.toml
+2025-11-03 08:23:28.131 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:23:31.219 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:25:23.673 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:26:05.039 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:29:49.462 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:29:55.634 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:31:34.945 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:31:38.793 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:35:40.520 [info] Send text to terminal: /bin/python /home/koveszter7/app.py
+2025-11-03 08:36:30.162 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:36:34.354 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:38:50.214 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:39:57.156 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:42:13.280 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:42:20.182 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:44:32.652 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:44:37.546 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:44:43.650 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:45:26.337 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:50:50.074 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:50:55.956 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:51:00.435 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:53:17.790 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:53:21.832 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:54:49.416 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:54:53.761 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:56:15.533 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:56:19.323 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:58:33.804 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 08:58:39.589 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:10:22.684 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/koveszter7/requirements.txt
+2025-11-03 09:10:22.684 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt
+2025-11-03 09:16:24.612 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:16:32.686 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:16:37.071 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:23:19.198 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:23:23.567 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:26:52.157 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:26:55.892 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:28:58.269 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:29:02.425 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:29:53.339 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:29:57.538 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:30:01.270 [info] Discover tests for workspace name: koveszter7 - uri: /home/koveszter7/app.py
+2025-11-03 09:31:38.382 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]',
+  version: {
+    raw: '3.12.3',
+    major: 3,
+    minor: 12,
+    patch: 3,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.12.3 64-bit',
+  detailedDisplayName: 'Python 3.12.3 64-bit',
+  type: undefined
+} /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py /home/koveszter7/requirements.txt
+2025-11-03 09:31:38.383 [info] > /bin/python /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/installed_check.py ./requirements.txt

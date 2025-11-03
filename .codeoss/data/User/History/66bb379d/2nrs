@@ -1,0 +1,13 @@
+web: gunicorn -b :$PORT app:server```
+
+**Explanation:**
+*   `web:`: Declares that this is a web process.
+*   `gunicorn`: The server to use.
+*   `-b :$PORT`: Binds Gunicorn to the host and port specified by the `$PORT` environment variable. Cloud Run automatically provides this variable. **You must not hardcode a port number.**
+*   `app:server`: Tells Gunicorn to look inside the `app.py` file (the `app` module) for the variable named `server` (which is your WSGI-compatible app).
+
+---
+
+### Step 4: Deploy to Cloud Run
+
+Now, make sure your folder contains these three files:

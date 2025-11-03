@@ -1,0 +1,31 @@
+How to Run Locally
+------------------
+1.  **Install Dependencies:**
+    Open your terminal or command prompt and run:
+    ```
+    pip install -r requirements.txt
+    ```
+
+2.  **Run the Application:**
+    In the same directory as `app.py`, run the following command:
+    ```
+    python app.py
+    ```
+
+3.  **View in Browser:**
+    Open your web browser and navigate to: http://127.0.0.1:8050/
+
+
+How to Deploy to Google Cloud Run
+---------------------------------
+(Assuming you have the Google Cloud SDK installed and configured)
+
+1.  **Place Files:**
+    Ensure `app.py`, `requirements.txt`, and `Procfile` are in the same directory.
+
+2.  **Deploy Command:**
+    Open your terminal in the project directory and run the following command. Replace `[YOUR_PROJECT_ID]` and `[YOUR_APP_NAME]` with your specific details.
+    ```
+    gcloud run deploy [YOUR_APP_NAME] --source . --region [YOUR_REGION] --project [YOUR_PROJECT_ID] --allow-unauthenticated
+    ```
+    Follow the on-screen prompts from the Google Cloud SDK to complete the deployment. Once finished, it will provide you with a public URL to access your live application.

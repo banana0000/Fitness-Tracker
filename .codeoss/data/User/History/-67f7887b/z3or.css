@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: "Poppins", Arial, sans-serif;
+  color: #fff;
+}
+
+/* Navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  padding: 1rem 2rem;
+  box-shadow: 0 0 15px rgba(255, 235, 59, 0.1);
+}
+
+.nav-logo {
+  color: #ffeb3b;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.nav-links .nav-link {
+  color: #ffeb3b;
+  text-decoration: none;
+  margin: 0 1rem;
+  transition: color 0.3s;
+}
+
+.nav-links .nav-link:hover {
+  color: #e53935;
+}
+
+/* Page container */
+.content-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  color: #ffeb3b;
+  text-shadow: 0 0 10px #e53935;
+}
+
+.page-text {
+  max-width: 700px;
+  margin: 1rem auto;
+  color: #ccc;
+  line-height: 1.6;
+}
+
+/* Graph cards */
+.graph-card {
+  margin: 2rem auto;
+  background-color: #111;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(229, 57, 53, 0.4);
+}
+
+/* Dropdown + Advice Box */
+.dropdown {
+  width: 250px;
+  margin: 1rem auto;
+  color: #fff;
+  background-color: #111;
+}
+
+.advice-box {
+  background-color: rgba(20, 20, 20, 0.95);
+  border-left: 6px solid #ffeb3b;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem auto;
+  width: 60%;
+  box-shadow: 0 0 15px rgba(255, 235, 59, 0.3);
+}
+
+.advice-title {
+  color: #ffeb3b;
+  font-weight: bold;
+}
+
+.advice-text {
+  color: #e53935;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  color: #777;
+  margin: 3rem 0 1rem 0;
+  font-size: 0.9rem;
+}
