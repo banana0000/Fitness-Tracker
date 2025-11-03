@@ -1,0 +1,35 @@
+2025-11-03 13:23:23.172 [info] [main] Log level: Info
+2025-11-03 13:23:23.172 [info] [main] Validating found git in: "git"
+2025-11-03 13:23:23.172 [info] [main] Using git "2.43.0" from "git"
+2025-11-03 13:23:23.172 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-03 13:23:23.172 [info] > git rev-parse --show-toplevel [5ms]
+2025-11-03 13:23:23.172 [info] > git rev-parse --git-dir --git-common-dir [17ms]
+2025-11-03 13:23:23.172 [info] [Model][openRepository] Opened repository (path): /home/koveszter7
+2025-11-03 13:23:23.172 [info] [Model][openRepository] Opened repository (real path): /home/koveszter7
+2025-11-03 13:23:23.190 [info] > git config --get commit.template [12ms]
+2025-11-03 13:23:23.197 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-11-03 13:23:23.197 [warning] [Git][getBranch] No such branch: main
+2025-11-03 13:23:23.214 [info] > git rev-parse --show-toplevel [18ms]
+2025-11-03 13:23:23.216 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-11-03 13:23:23.615 [info] > git rev-parse --show-toplevel [363ms]
+2025-11-03 13:23:23.657 [info] > git rev-parse --show-toplevel [10ms]
+2025-11-03 13:23:26.074 [info] > git check-ignore -v -z --stdin [22ms]
+2025-11-03 13:23:26.075 [info] > git rev-parse --show-toplevel [2216ms]
+2025-11-03 13:23:26.477 [info] > git status -z -uall [3274ms] (cancelled)
+2025-11-03 13:23:26.478 [info] > git rev-parse --show-toplevel [360ms]
+2025-11-03 13:23:28.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1861ms]
+2025-11-03 13:23:28.333 [warning] [Git][getBranch] No such branch: main
+2025-11-03 13:23:28.334 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2025-11-03 13:23:28.386 [info] > git rev-parse --show-toplevel [205ms]
+2025-11-03 13:23:28.386 [info] > git config --get commit.template [222ms]
+2025-11-03 13:23:28.436 [info] > git rev-parse --show-toplevel [41ms]
+2025-11-03 13:23:28.465 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [34ms]
+2025-11-03 13:23:28.465 [warning] [Git][getBranch] No such branch: main
+2025-11-03 13:23:28.551 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [49ms]
+2025-11-03 13:23:28.552 [info] > git rev-parse --show-toplevel [88ms]
+2025-11-03 13:23:28.574 [info] > git rev-parse --show-toplevel [8ms]
+2025-11-03 13:23:28.575 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-03 13:23:28.626 [info] > git ls-files --stage -- app.py [19ms]
+2025-11-03 13:23:28.638 [info] > git show --textconv :app.py [49ms]
+2025-11-03 13:23:28.640 [info] > git cat-file -s eaf01300b368a260f49a1827a64df7e294901c19 [3ms]
+2025-11-03 13:23:30.697 [info] > git status -z -uall [2222ms] (cancelled)

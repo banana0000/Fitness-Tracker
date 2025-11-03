@@ -60,3 +60,26 @@ git branch -M main
 git remote add origin https://github.com/banana0000/Fitness-Tracker.git
 git push -u origin main
 ls
+/bin/python /home/koveszter7/app.py
+echo "# Fitness-Tracker" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/banana0000/Fitness-Tracker.git
+git push -u origin main
+git config --global user.name "banana0000"
+git config --global user.email "koveszter7@gmail.com"
+git remote -v
+git remote remove origin
+git remote add origin https://github.com/banana0000/Fitness-Tracker.git
+git add README.md
+git commit -m "first commit"
+git branch -M main
+echo "# Fitness-Tracker" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/banana0000/Fitness-Tracker.git
+git push -u origin main
